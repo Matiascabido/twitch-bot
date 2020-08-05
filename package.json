@@ -1,0 +1,18 @@
+{
+  "name": "twitchbot",
+  "version": "1.0.0",
+  "description": "Twitch Bot message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Matias Cabido",
+  "license": "MIT",
+  "dependencies": {
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
