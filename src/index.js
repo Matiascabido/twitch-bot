@@ -8,12 +8,12 @@ const options = {
     reconnect:true
   },
   identity:{
-    username:'saitaM__',
-    password:'oauth:f53w6mogjk66z4szf1z9hca3w3jags'
+    username:'', //tu nombre de usuario
+    password:'' // oauth proveniente de https://twitchapps.com/tmi/
   },
   channels:[
-    'Frankkaster'
-  ]
+    ''
+  ] //nombre de los canales a los cuales se afecta el bot
 }
 
 const client = new tmi.client(options)
